@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".ambulance.AmbulanceStoreActivity">
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Enter Ambulance Service Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/ambulanceNameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Service Provided In"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/ambulanceAreaId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Phone No."
+        android:inputType="phone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/ambulancePhoneNoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="#302326"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:id="@+id/saveAmbulanceDataButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>

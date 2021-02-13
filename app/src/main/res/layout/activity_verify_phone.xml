@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F4F4"
+    tools:context=".VerifyPhoneActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="355dp"
+        android:src="@drawable/otp"
+        />
+
+    <EditText
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/OTPEditTextId"
+        android:inputType="number"
+        android:hint="ENTER OTP"
+        android:textColorHint="#302326"
+        android:textColor="#302326"
+        />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/verifyPhoneButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#302326"
+        android:text="VERIFY"
+        android:onClick="callNextScreenFromOTP"
+        android:textColor="@color/white" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/progressbarId"
+        />
+
+
+</LinearLayout>

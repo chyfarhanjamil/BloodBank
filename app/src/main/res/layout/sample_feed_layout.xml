@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:hint="Enter Recipient Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/feedNameSampleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:hint="Blood Group"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/feedBloodGrpSampleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:hint="Area"
+        android:id="@+id/feedAreaSampleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:hint="Amount"
+        android:id="@+id/feedAmountSampleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:hint="Phone No."
+        android:id="@+id/feedPhoneNoSampleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:hint="Details"
+        android:id="@+id/feedDetailsSampleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
